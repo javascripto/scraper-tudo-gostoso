@@ -1,7 +1,8 @@
-const puppeteer = require('puppeteer');
+const teste = require('./teste');
 
-async function robo() {
-  const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
-}
-
-robo().then(console.log);
+(async () => {
+  console.clear();
+  const result = await teste();
+  console.log(result);
+  process.exit();
+})();
