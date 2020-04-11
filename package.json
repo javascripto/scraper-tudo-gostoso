@@ -1,0 +1,23 @@
+{
+  "name": "scraper-tudo-gostoso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascripto/scraper-tudo-gostoso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javascripto/scraper-tudo-gostoso/issues"
+  },
+  "homepage": "https://github.com/javascripto/scraper-tudo-gostoso#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}
